@@ -9,11 +9,11 @@ import Sanduiche from "../products/Sanduiche";
 export default interface IBuilder{
     reset():void;
     getSanduiche() : Sanduiche;
-    setSanduicheType(SanduicheType): SanduicheType;
-    setBread(bread): Bread;
-    setProtein(protein): Protein;
-    setSalada(salad): Salad;
-    addSouces(sauce): Sauce;
+    setSanduicheType(value: SanduicheType);
+    setBread(value: Bread);
+    setProtein(value: Protein);
+    setSalada(value: Salad);
+    addSauces(value: Sauce);
 
 
 

@@ -1,7 +1,8 @@
-enum SanduicheType{
+enum SanduicheType {
     SALADA = "SALADA",
-    XSALAD = "XSALAD",
-    HOTDOG = "HOTDOG"
+    XSALAD = "XSALADA",
+    HOTDOG = "HOTDOG",
+    XSALADA = "XSALADA"
 }
 
 export default SanduicheType;
